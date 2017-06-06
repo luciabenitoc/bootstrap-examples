@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title> Documento </title>
+		<title> Documento para cap 8 </title>
 		<meta name="viewport" content="width=device-width, user-scalabel=no, initial-scale=1.0, maximun-scale=1.0, minimum-scala=1.0">
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -17,14 +17,16 @@
 
 		<div class="container-fluid">
 			<section class="main row">
-				<article class="col-xs-12 col-sm-8 col-md-9">
+				<article class="hidden-xs col-xs-12 col-sm-8 col-md-9">
 					<p>
 						<h3>Article</h3>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac purus ipsum. Sed dui nunc, dapibus eget congue vel, euismod aliquet mauris. Sed molestie lorem nisl, eget ultricies erat vehicula nec. Curabitur volutpat ante nunc, sed luctus est placerat et. Donec volutpat auctor mauris, eu semper leo auctor sit amet. Mauris aliquam vitae augue vitae luctus. Donec quis efficitur enim, eu pulvinar odio. 
-						<button class="btn btn-primary">Enviar</button>
-					</p>
+						<a href="#" class="btn btn-primary visible-sm-inline visible-md-inline-block visible-lg-block">Enviar</a> 
+						<a href="#" class="btn btn-primary visible-print-inline">Enviar</a> <!-- Para mostrarlo solo en la impresion-->
+						<a href="#" class="btn btn-primary hidden-print-inline-block">Enviar</a>  <!-- Para ocultarlo de la impresion -->
+
 				</article>
-				<aside class="col-xs-12 col-sm-4 col-md-3">
+				<aside class="visible-lg col-xs-12 col-sm-4 col-md-3">
 					<p>
 						<h3>Aside - sidebar</h3>
 						Quisque lorem leo, scelerisque quis malesuada et, porta nec ligula. Curabitur sed sapien faucibus, varius tortor sed, suscipit diam. Morbi tincidunt sodales nisl, sed placerat turpis semper sed. Nulla varius vestibulum vestibulum. Nunc eu tellus arcu. Mauris mauris dui, tristique non sem et, vehicula euismod metus.
