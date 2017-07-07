@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Barras de progreso</title>
+		<meta name="viewport" content="width=device-width, user-scalabel=no, initial-scale=1.0, maximun-scale=1.0, minimum-scala=1.0">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="container-fluid">
+		<br>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="progress"><!-- Barra de Progreso-->
+						<div class="progress-bar" role="progressbar" style="width:10%;"> <!--Con la clase progress-bar se va rellenando la barra -->
+							10%Completado 
+						</div>
+						<span class="sr-only">10%Completado</span>
+					</div>
+					<div class="progress"><!-- Barra de Progreso-->
+						<div class="progress-bar" role="progressbar" style="width:10%; min-width:10%;"> <!--Con la clase progress-bar se va rellenando la barra -->
+							10%Completado 
+						</div>
+						<span class="sr-only">10%Completado</span>
+					</div>
+
+					<!-- Colores-->
+					<div class="progress"><!-- Barra de Progreso-->
+						<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width:100%; min-width:10%;"> <!--Con la clase progress-bar se va rellenando la barra -->
+							10%Completado 
+						</div>
+						<span class="sr-only">10%Completado</span>
+					</div>
+					<div class="progress"><!-- Barra de Progreso-->
+						<div class="progress-bar progress-bar-info" role="progressbar" style="width:100%; min-width:10%;"> <!--Con la clase progress-bar se va rellenando la barra -->
+							10%Completado 
+						</div>
+						<span class="sr-only">10%Completado</span>
+					</div>
+					<div class="progress"><!-- Barra de Progreso-->
+						<div class="progress-bar progress-bar-danger" role="progressbar" style="width:100%; min-width:10%;"> <!--Con la clase progress-bar se va rellenando la barra -->
+							10%Completado 
+						</div>
+						<span class="sr-only">10%Completado</span>
+					</div>
+					<div class="progress"><!-- Barra de Progreso-->
+						<div class="progress-bar progress-bar-warning" role="progressbar" style="width:100%; min-width:10%;"> <!--Con la clase progress-bar se va rellenando la barra -->
+							10%Completado 
+						</div>
+						<span class="sr-only">10%Completado</span>
+					</div>
+
+					<!--Combinadas -->
+					<div class="progress">
+						<div class="progress-bar progress-bar-success" role="progressbar" style="width:20%">
+							<span class="sr-only">20%completado</span>
+						</div>
+						<div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" style="width:20%">
+							<span class="sr-only">20%completado</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+	</body>
+</html>
