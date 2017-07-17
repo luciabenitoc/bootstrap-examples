@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalabel=no, initial-scale=1.0, maximun-scale=1.0, minimum-scala=1.0">
+		<!-- Ver la documentacion en la solapa JS de bootstrap -->
+		<title>Componentes JS - Ventana modal</title>
+		<!--Ventanas emergentes -->
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="container">
+		<br>
+			<!--dentro de href el nombre del div que contiene la ventana emergente -->
+			<a href="#modal1" class="btn btn-primary btn-lg" data-toggle="modal">Boton #1</a>
+			<a href="#modal2" class="btn btn-success btn-lg" data-toggle="modal">Boton #2</a>
+
+			<div class="modal fade" id="modal1">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<!-- header de la ventana-->
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title"> Encabezado #1</h4>
+						</div>
+						<!-- Contenido-->
+						<div class="modal-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+						<!-- Footer de la ventana-->
+						<div class="modal-footer">
+							<button class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+							<button class="btn btn-success">Guardar cambios</button>
+						</div>
+					</div>
+				</div>	
+			</div>
+
+			<div class="modal fade" id="modal2">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<!-- header de la ventana-->
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title"> Encabezado #2 </h4>
+						</div>
+						<!-- Contenido-->
+						<div class="modal-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+						<!-- Footer de la ventana-->
+						<div class="modal-footer">
+							<button class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+							<button class="btn btn-success">Guardar cambios</button>
+						</div>
+					</div>
+				</div>	
+			</div>
+
+		</div>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+	</body>
+</html>
