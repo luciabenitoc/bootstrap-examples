@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalabel=no, initial-scale=1.0, maximun-scale=1.0, minimum-scala=1.0">
+		<!-- Ver la documentacion en la solapa JS de bootstrap -->
+		<title>Componentes JS - Collapse (Acordeon)</title>
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="container-fluid">
+		<br>
+			<a href="#seccion" class="btn btn-primary" data-toggle="collapse">Mostrar/Ocultar</a>
+			<div class="collapse" id="seccion">
+				<br>
+				<div class="well"> <!-- El componente well permite popner el texto en una caja que encierra el collapse-->
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis viverra tellus, vel fermentum sem. Nullam commodo eget ante vitae vestibulum.</p>
+				</div>
+			</div>
+			<br><br>
+			<!--Acordeones particulares -->
+			<div class="panel-group" id="accordion" role="tablist">
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading1">
+						<h4 class="panel-title">
+							<a href="#collapse1" data-toggle="collapse" data-parent="#accordion">
+								Encabezado #1
+							</a>
+						</h4>
+					</div>
+					<div id="collapse1" class="panel-collapse collapse in"> <!--La clase in es la que permite que ese panel este abierto -->
+						<div class="panel-body">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis viverra tellus, vel fermentum sem. Nullam commodo eget ante vitae vestibulum. Etiam ut congue sapien. Duis eget nisl gravida, aliquam leo non, condimentum ex. Nam finibus aliquet nulla non iaculis. 
+					</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading2">
+						<h4 class="panel-title">
+							<a href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+								Encabezado #2
+							</a>
+						</h4>
+					</div>
+					<div id="collapse2" class="panel-collapse collapse">
+						<div class="panel-body">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis viverra tellus, vel fermentum sem. Nullam commodo eget ante vitae vestibulum. Etiam ut congue sapien. Duis eget nisl gravida, aliquam leo non, condimentum ex. Nam finibus aliquet nulla non iaculis. 
+					</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading3">
+						<h4 class="panel-title">
+							<a href="#collapse3" data-toggle="collapse" data-parent="#accordion">
+								Encabezado #3
+							</a>
+						</h4>
+					</div>
+					<div id="collapse3" class="panel-collapse collapse">
+						<div class="panel-body">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis viverra tellus, vel fermentum sem. Nullam commodo eget ante vitae vestibulum. Etiam ut congue sapien. Duis eget nisl gravida, aliquam leo non, condimentum ex. Nam finibus aliquet nulla non iaculis. 
+					</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+	</body>
+</html>
