@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalabel=no, initial-scale=1.0, maximun-scale=1.0, minimum-scala=1.0">
+		<title>Blog Lucia</title>
+		<!--la extension .min.css del archivo es min porque esta minificado y pesa menos -->
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/estilos.css">
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-inverse navbar-static-top" role="navegation"> <!-- inverse para cambiar los colores, static-top para q quede statica-->
+				<div class="conteiner">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-lb"> <!-- collapsed en esta clase va con d al final-->
+							<span class="sr-only">Desplegar/Ocultar Menu</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button> 
+						<a href="#" class="navbar-brand">Lucia Benito</a>
+					</div>
+					<!-- Comienza menu-->
+					<div class="collapse navbar-collapse" id="navegacion-lb"> <!--aca collapse no va con la d al final --> 
+						<ul class="nav navbar-nav">
+							<li><a href="#">Inicio</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+									Categorias <span class="caret"></span> <!--el icono de la flechita es la clase caret -->
+								</a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">Categoria #1</a></li>
+									<li><a href="#">Categoria #2</a></li>
+									<li><a href="#">Categoria #3</a></li>
+									<li><a href="#">Categoria #4</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Blog</a></li>
+							<li ><a href="#">Contacto</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Jumbotron-->
+	
+		<section class="main container"></section>
+
+		<footer></footer>
+
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
